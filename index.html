@@ -9,6 +9,8 @@
 <script src="ex06-7.js"></script>
 <script src="ex06-8.js"></script>
 <script src="ex06-9.js"></script>
+<script src="ex06-10.js"></script>
+<script src="ex06-11.js"></script>
 <script src="ex07-1.js"></script>
 </head>
 <body>
@@ -47,11 +49,26 @@
        onclick="imgchange1();">
   <img src='./image/josai.png'id="logo"alt="Josai
                                             Logo"></div>
+  
   <h1>タイマーイベントによる実行6-10</h1>
   <form name="timer">
-  <input type="button" value="スタート"onclick="startfnc()">
+  <input type="button" value="スタート"
+         onclick="startfnc()">
   <br>
-  <input type="text" name="moji" size="30" value=""> 
+  <input type="text"name="moji"size="30"value=""> 
   </form>
+  <from> <input type="button" value="Timer"onclick="setTimeout('mes()',3000)">
+  </from>
+  
+  <h1>タイマーイベントによる実行6-11</h1>
+  <form name="timer2">
+  <input type="button" value="スタート"
+         onclick="hyoji2()">
+  <br>
+  <input type="text" name="moji2" size="30" value=""> 
+  </form>
+  
+  <h1>タイマーイベントによる実行6-12</h1>
+  
 </body>
 </html>
