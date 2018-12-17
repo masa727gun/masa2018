@@ -1,1 +1,3 @@
-function sayhello71(){alret('Hello,'+document.getElementByld('who').value+'!');}
+function sayhello71(){
+  alert('Hello,'+
+        document.getElementById('who71').value+'!');}

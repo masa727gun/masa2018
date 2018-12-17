@@ -15,6 +15,7 @@
 <script src="ex06-13.js"></script>
 <script src="ex09-2.js"></script>
 <script src="ex07-1.js"></script>
+<script src="ex07-3.js"></script>
 </head>
 <body>
 <h1>変数の練習65</h1>
@@ -81,10 +82,24 @@
   <div id="back">
   <input type="button" value="変更後3秒でまた戻る"
          onclick="ChangeImageAndBack();">
-    <img src='./image/josai.png' id="logo2" alt="josai Logo">
+    <img src='./image/josai.png' id="img13" alt="josai Logo">
          </div>
   <br>
+  <h1>テキスト入力の練習7-1</h1>
+  <input type="button" value="あいさつ"
+         onclick="sayhello71();">
+  <p>誰？<input type="text"id="who71"></p>
   
+  <h1>足し算7-3</h1>
+  <p>
+  <input type="text" id="input1">+<input type="text" id="input2">
+  <input type="button" value="計算" onclick="add();">
+  </p>
+  
+  <h1>BMI計算7-4</h1>
+  <p>身長:<input type="number" id="height"></p>
+  <p>体重:<input type="number" id="weight"></p>
+  <p><input type="button" value="BMIを計算"onclick="calc;"></p>
     <h1>JavaScriptの変数とデバッガを理解09-2</h1>
   <p>下のボタンを押すと数字が表示されます</p>
   <p><input type="button" value="実行ボタン"
