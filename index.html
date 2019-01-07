@@ -16,6 +16,8 @@
 <script src="ex09-2.js"></script>
 <script src="ex07-1.js"></script>
 <script src="ex07-3.js"></script>
+<script src="ex07-4.js"></script>
+<script src="ex07-5.js"></script>
 </head>
 <body>
 <h1>変数の練習65</h1>
@@ -97,9 +99,16 @@
   </p>
   
   <h1>BMI計算7-4</h1>
-  <p>身長:<input type="number" id="height"></p>
-  <p>体重:<input type="number" id="weight"></p>
-  <p><input type="button" value="BMIを計算"onclick="calc;"></p>
+  <p>身長(cm):<input type="Number" id="height"></p>
+  <p>体重(kg):<input type="Number" id="weight"></p>
+  <p><input type="button" value="BMIを計算" onclick="calc();"></p>
+  
+  <h1>なぞなぞ7-5</h1>
+  <p>目を閉じてないと見られないものはなーに？</p>
+  <p>
+  答(漢字1文字で):<input type="text" id="answer">
+  <input type="button" value="解答" onclick="nazo();">
+  </p>
     <h1>JavaScriptの変数とデバッガを理解09-2</h1>
   <p>下のボタンを押すと数字が表示されます</p>
   <p><input type="button" value="実行ボタン"
